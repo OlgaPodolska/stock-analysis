@@ -45,7 +45,7 @@ There was appeared Overflow mistake at the tickerEndingPrices variable. The caus
 
 ## Results
 
-The file VBA_Challenge was used for to refator the VBA script. After refactoring the script, stock data for 2017 ran in 0.1953125 seconds, and stock data for 2018 ran in 0.1953125 seconds. Images VBA_Challenge_2017 and VBA_Challenge_2018 show the reduced run times. The result wasn't changed.
+The file VBA_Challenge was used for to refator the VBA script. After refactoring the script, stock data for 2017 ran in 0.1796875 seconds, and stock data for 2018 ran in 0.1796875 seconds. Images VBA_Challenge_2017 and VBA_Challenge_2018 show the reduced run times. The result wasn't changed.
 
 ![VBA_Challenge_2017.png](/Resources/VBA_Challenge_2017.png) ![VBA_Challenge_2018.png](/Resources/VBA_Challenge_2018.png)
 
