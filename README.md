@@ -40,29 +40,13 @@ Ensuring that the arrays’ starting value was set to zero at the beginning of e
   * tickerEndingPrices(i) = 0
   * Next i_
 
-
-
 ### Challenges and Difficulties Encountered
-1. Overall task wasn't too challenging, however it caused me to give it a second thought when I needed to remove Quoters from the Rows in Pivot Table at the sheet Theater Outcomes by Launch Date. 
-2. At the sheet Outcomes Based on Goals one should pay attention to the formula at the last row, because it is different from another and should use >= mathematical symbol.
-3. At the first step I don't even noticed, that the chart Outcomes_vs_Goals should has a goals describing on the x-axis. Only when I myself couldn't remember what the points mean, I saw that in the sample assignment the goals directly listed. 
-
+There was appeared Overflow mistake at the tickerEndingPrices variable. The cause was on the step 3a wasn't direct instruction to set the tickerEndingPrices(i) = 0 before the starting the code. After changing that the code works. 
 
 ## Results
 
->- What are two conclusions you can draw about the Outcomes based on Launch Date?
-1. Overall Theater campaigns are most of the time two times more successful than they are failed.
-2. The best months for launching Theater campaign are May and June, and the worst month is evidently December.
+The file VBA_Challenge was used for to refator the VBA script. After refactoring the script, stock data for 2017 ran in 0.1953125 seconds, and stock data for 2018 ran in 0.1953125 seconds. Images VBA_Challenge_2017 and VBA_Challenge_2018 show the reduced run times. The result wasn't changed.
 
->- What can you conclude about the Outcomes based on Goals?
+![VBA_Challenge_2017.png](/Resources/VBA_Challenge_2017.png) ![VBA_Challenge_2018.png](/Resources/VBA_Challenge_2018.png)
 
-Campaigns with the small goals are usually more successful, then campaigns with the big goals: plays with the goals less than 1K have the best percentage of success ever, and when goals of plays exceed 20K the probability of success becomes less than 50%.
-
->- What are some limitations of this dataset?
-
-There could be other variables that affect the final outcome. For example, the plays of some authors may be more successful than the plays of others. Or advertising campaigns applied in some cases may be more successful than in others.
-
->- What are some other possible tables and/or graphs that we could create?
-
-1. Calculating and visualizing by percentage of successful/failed/canceled Theater campaigns by the time of year in the sheet "Theater Outcomes by Launch Date", could be more comprehensive than actual numbers. 
-2. Considering we have not the canceled campaigns at the "Outcomes_vs_Goals" chart, maybe another type of chart could be more demonstrative for percentage of successful campaigns instead of line chart, which basically duplicates information. 
+The refractored code had a much quicker run time because of the changes. This is a very positive outcome and means the code is much more efficient and most likely will run better if we have more tickers.
