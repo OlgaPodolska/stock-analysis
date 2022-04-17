@@ -9,7 +9,7 @@ In this project we are using VBA to help us analyze the stocks we are given. The
 
 The initial VBA script was created and run with the file green_stocks. Our 2017 findings show that most of the tickers had a positive return and were safe investments. The Particular one that Steve's parents were looking into was DQ which had the greatest return of all. For the 2018 you can see that the returns were not nearly as high and the total volumes were down as well. 
 
-![2017.png](/resources/2017.png) ![2018.png](/resources/2018.png)
+![2017.png](/Resources/2017.png) ![2018.png](/Resources/2018.png)
 
 The original code only initialized startingPrice and endingPrice and had us loop through all of the values, essentially making the process longer. You can see the running time at the pictures. 
 
