@@ -13,7 +13,7 @@ The initial VBA script was created and run with the file green_stocks. Our 2017 
 
 The original code only initialized startingPrice and endingPrice and had us loop through all of the values, essentially making the process longer. You can see the running time at the pictures. 
 
-![Green Stock_2017.png](/resources/Green Stock_2017.png) ![Green Stock_2018.png](/resources/Green Stock_2018.png)
+![Green Stock_2017.png](/Resources/Green Stock_2017.png) ![Green Stock_2018.png](/Resources/Green Stock_2018.png)
 
 
 #### Refactoring methodology
