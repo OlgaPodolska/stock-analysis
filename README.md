@@ -23,7 +23,7 @@ The following three changes made when refactoring the script influenced the run 
 
 The creation of a tickerIndex variable.
 
- Markup : * '1a)Create a ticker Index  
+* '1a)Create a ticker Index  
     * _tickerIndex = 0_
 
 The creation of output arrays for tickerVolumes, tickerStartingPrices, and tickerEnding Prices.
