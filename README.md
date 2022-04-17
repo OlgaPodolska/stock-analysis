@@ -57,7 +57,7 @@ The refractored code had a much quicker run time because of the changes. This is
 Refactoring will start with a preexisting outline of the script, and the code can be used with the modules already in place. The refractored code had a much quicker run time because of the changes. This is a very positive outcome and means the code is much more efficient and most likely will run better if we have more tickers.
 
 ### Disadvantages of refactoring code
-A firm understanding of the VBA syntax is needed to make the script more efficient.
+There is needed complit understanding of the VBA syntax and logic to make the script more efficient.
 
 ### Pros and cons apply to refactoring the original VBA script
 There was a significant improvement in the run time of the script after refactoring. The syntax’s exact requirements meant that the order I edited the script could return an error before I finished the edit.
